@@ -1,0 +1,53 @@
+img {
+  width: 400px;
+  height: 300px;
+}
+body {
+  margin: 0px auto;
+  width: 550px;
+  /* width says 600px but 550 fits the screenshot better */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+html {
+  background-image: url(images/boardBackground.jpg);
+}
+h1 {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  border-radius: 20px;
+  letter-spacing: 4px;
+  font-variant: small-caps;
+}
+.center {
+  text-align: center;
+}
+
+#yellow {
+  color: orange;
+}
+#blue {
+  color: blue;
+}
+#red {
+  color: red;
+}
+h2 {
+  font-variant: small-caps;
+}
+h1,
+h2 {
+  font-family: "Kavivanar", cursive;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5;
+}
+.caption {
+  font-size: 12px;
+  text-align: center;
+}
